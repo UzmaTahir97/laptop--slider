@@ -1,8 +1,6 @@
 .slider{
-/*     width: 80%; */
-/*     height: 400px; */
-    width:80vw;
-    height:50vh
+    width: 80%;
+    height: 400px;
     margin: 40px auto;
     overflow: hidden;
     position: relative;
@@ -12,16 +10,14 @@
     height: 100%;
     display: flex;
     animation: slide 18s infinite;
-/*     max-width: 100%; */
+
 
 }
 .slide img{
-/*      width: 75%; */
-/*     max-width:100%; */
-    width:75vw;
+     width: 75%;
      height: 100%;
     object-fit: cover;
-    flex-shrink:0;
+    
 }
 @keyframes slide {
     0%{
