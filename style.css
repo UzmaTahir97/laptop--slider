@@ -1,0 +1,48 @@
+.slider{
+    width: 80%;
+    height: 400px;
+    margin: 40px auto;
+    overflow: hidden;
+    position: relative;
+}
+.slide{
+    width: 400%;
+    height: 100%;
+    display: flex;
+    animation: slide 18s infinite;
+
+}
+.slide img{
+     width: 75%;
+     height: 100%;
+    object-fit: cover;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-25%);
+    }
+    45%{
+        transform: translateX(-25%);
+    }
+    50%{
+        transform: translateX(-50%);
+    }
+    70%{
+        transform: translateX(-50);
+    }
+    75%{
+        transform: translateX(-75%);
+    }
+    95%{
+        transform: translateX(-75%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
